@@ -1,0 +1,21 @@
+<mvc:View controllerName="com.app.project1.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+        <content >
+        <Label text="Enter Name"/>
+        <Input value=" " id="inputId"/>
+         <Label text="Enter Age"/>
+        <Input value=" " id="ageId"/>
+
+        
+        </content>
+        <footer>
+          <Bar design="Footer">
+          <contentRight>
+          <Button text="Open Fragment" press="OnPress"></Button>
+          </contentRight>
+          </Bar>
+        </footer>
+    </Page>
+</mvc:View>

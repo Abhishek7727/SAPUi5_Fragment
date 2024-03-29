@@ -1,0 +1,13 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
+<Dialog id="dialogId" class="sapUiContentPadding">
+<content>
+        <Label text="Enter Name"/>
+        <Input value=" " />
+         <Label text="Enter Age"/>
+        <Input value=" "/>
+</content>
+  <endButton>
+  <Button text="Close" press="OnClose"
+  ></Button></endButton>
+</Dialog>
+</core:FragmentDefinition>
